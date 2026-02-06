@@ -3,127 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soulsborne</title>
+
     <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Soulsborne</title>
   </head>
 
-
-  
   <body>
-    <div class="header">
+    <!-- HEADER -->
+    <header class="header">
       <div class="container">
-       <h1 class="header-title">Soulsborne</h1>
-       <nav class="nav-links">
-        <a href="#">Games</a>
-        <a href="#">Story</a>
-        <a href="#">Bosses</a>
-       </nav>
+        <h1 class="header-title">Soulsborne</h1>
+        <nav class="nav-links">
+          <a href="#">Games</a>
+          <a href="#">Story</a>
+          <a href="#">Bosses</a>
+        </nav>
       </div>
-    </div>
+    </header>
 
-
-
-    <main class="main-container">
-      <div class="dark-hero"></div>
-      <div class="hero-content"></div>
-      <h1 class="h1-hero">Enter the World of Soulsborne</h1>
-      <p class="p1-hero">
-        A legendary series known for its challenging combat, deep lore, and
-        unforgettable bosses. Are you ready to face your fears and conquer the
-        darkness?
-      </p>
-      <button class="sign-up">Begin Your Journey</button>
-      <img
-        class="hero-image"
-        src="/images/ds3_cover.jpg"
-        alt="Epic artwork from Dark Souls"
-        width="500px"
-        height="250px"
-      />
-
-
-      <section class="cards">
-        <h2 class="card-title">Explore the Legends</h2>
-        <div class="card-box"></div>
-        <div class="card-box2">
-
-
-
-          <div class="card">
-            <div class="card-image">
-              <img src="/images/ds1.jpg" alt="Dark Souls artwork" />
-            </div>
-            <div class="card-text">Dark Souls</div>
-            <div class="card-subtext">
-              The game that redefined challenge and atmosphere.
-            </div>
-          </div>
-
-
-
-          <div class="card"></div>
-           <div class="card-image">
-              <img src="/images/Bloodborne.jpg" alt="Bloodborne artwork" />
-            </div>
-            <div class="card-text">Bloodborne</div>
-            <div class="card-subtext">
-              A gothic nightmare filled with eldritch horrors.
-            </div>
-          </div>
-
-
-
-          <div class="card"></div>
-          <div class="card-image">
-              <img src="/images/sekiro.jpg" alt="Sekiro artwork" />
-            </div>
-            <div class="card-text">Sekiro</div>
-            <div class="card-subtext">
-              Master the sword in a tale of revenge and honor.
-            </div>
-          
-
-
-          <div class="card"></div>
-          <div class="card-image">
-              <img src="/images/elden rings.jpg" alt="Elden Ring artwork" />
-            </div>
-            <div class="card-text">Elden Ring</div>
-            <div class="card-subtext">
-              A vast open world filled with mystery and peril.
-            </div>
+    <!-- HERO -->
+    <section class="dark-hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="h1-hero">Enter the World of Soulsborne</h1>
+          <p class="p1-hero">
+            A legendary series known for its challenging combat, deep lore, and
+            unforgettable bosses.
+          </p>
+          <button class="sign-up">Begin Your Journey</button>
         </div>
-      </section>
 
+        <img class="hero-image" src="/images/ds3_cover.jpg" alt="Dark Souls" />
+      </div>
+    </section>
 
+    <!-- CARDS -->
+    <section class="cards">
+      <h2 class="card-title">Explore the Legends</h2>
 
-      <section class="Quote">
-        <p class="Quote-text">"Prepare to die, over and over. But in the end, triumph and glory await those who persist." </p>
-        <h4 class="Quote-author">- Hidetaka Miyazaki</h4>
-      </section>
+      <div class="card-grid">
+        <div class="card">
+          <img src="/images/ds1.jpg" alt="Dark Souls" />
+          <h3>Dark Souls</h3>
+          <p>The game that redefined challenge and atmosphere.</p>
+        </div>
 
+        <div class="card">
+          <img src="/images/Bloodborne.jpg" alt="Bloodborne" />
+          <h3>Bloodborne</h3>
+          <p>A gothic nightmare filled with eldritch horrors.</p>
+        </div>
 
+        <div class="card">
+          <img src="/images/sekiro.jpg" alt="Sekiro" />
+          <h3>Sekiro</h3>
+          <p>Master the sword in a tale of revenge and honor.</p>
+        </div>
 
-      <section class="last-container">
-        <div class="last-card"></div>
-        <div class="last-text"></div>
-        <h2 class="last-heading">Join the Hunt</h2>
-        <p class="last-p">Sign up to stay updated on all things Soulsborne. Guides, lore, and community events await you.</p>
-        <button class="last-button">Sign Up Now</button>
-      </section>
-    </main>
+        <div class="card">
+          <img src="/images/elden rings.jpg" alt="Elden Ring" />
+          <h3>Elden Ring</h3>
+          <p>A vast open world filled with mystery and peril.</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- QUOTE -->
+    <section class="quote">
+      <p class="quote-text">
+        “Prepare to die, over and over. But in the end, triumph awaits.”
+      </p>
+      <h4 class="quote-author">— Hidetaka Miyazaki</h4>
+    </section>
 
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+      <div class="cta-box">
+        <div class="cta-text">
+          <h2>Join the Hunt</h2>
+          <p>Sign up to stay updated on guides, lore, and community events.</p>
+        </div>
+        <button class="cta-btn">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="footer">
-      <footer class="footer-contant">
-        <p class="footer-text">Copyright © 2026 Soulsborne Legends</p>
+      <p class="footer-text">Copyright © 2026 Soulsborne Legends</p>
     </footer>
-
   </body>
 </html>
