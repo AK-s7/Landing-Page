@@ -99,11 +99,10 @@
   height: 240px;
   border-radius: 10px;
   margin-bottom: 15px;
-  border: #3882f6 solid 3px
-
+  border: #3882f6 solid 3px;
 }
 
-.card p{
+.card p {
   margin-top: 20px;
   font-weight: 300;
 }
@@ -119,7 +118,7 @@
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  color: #1f2937; 
+  color: #1f2937;
 }
 
 .quote-author {
@@ -141,14 +140,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .cta-text {
   margin-left: 40px;
   margin-right: 40px;
 }
-
 
 .cta-btn {
   background: transparent;
