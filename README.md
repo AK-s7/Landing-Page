@@ -6,7 +6,7 @@ Welcome to the **Soulsborne Landing Page** — a dark-themed web page inspired b
 
 ## Live Demo
 
-https://ak-s7.github.io/Landing-Page/
+<a src="https://ak-s7.github.io/Landing-Page/">Here
 
 Explore the site live to see the layout, hero section, game cards, quote, and sign-up CTA. :contentReference[oaicite:2]{index=2}
 
