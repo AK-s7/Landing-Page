@@ -1,6 +1,6 @@
 # Soulsborne Landing Page
 
-Welcome to the **Soulsborne Landing Page** — a dark-themed web page inspired by the legendary Soulsborne game series. It showcases iconic games like *Dark Souls*, *Bloodborne*, *Sekiro*, and *Elden Ring* with immersive visuals, engaging cards, and a call to action to begin your journey into these worlds. :contentReference[oaicite:1]{index=1}
+Welcome to the **Soulsborne Landing Page** — a dark-themed web page inspired by the legendary Soulsborne game series. It showcases iconic games like *Dark Souls*, *Bloodborne*, *Sekiro*, and *Elden Ring* with immersive visuals, engaging cards, and a call to action to begin your journey into these worlds.
 
 ---
 
@@ -19,7 +19,7 @@ Explore the site live to see the layout, hero section, game cards, quote, and si
 - Quote section highlight from Hidetaka Miyazaki  
 - Join-the-hunt sign-up area  
 - Clean, styled layout using modern CSS  
-- Fully static, hosted using GitHub Pages :contentReference[oaicite:3]{index=3}
+- Fully static, hosted using GitHub Pages
 
 ---
 
@@ -29,6 +29,6 @@ This project uses simple and popular front-end technologies:
 
 - HTML5
 - CSS3 (Flexbox layout)
-- Google Fonts (Roboto) :contentReference[oaicite:4]{index=4}
+- Google Fonts (Roboto)
   
 ---
