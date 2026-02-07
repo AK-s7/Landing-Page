@@ -176,4 +176,12 @@
 .footer-text {
   color: #e5e7eb;
 }
+<<<<<<< HEAD
  
+=======
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+>>>>>>> ac9e98511036eff8ba8c12b4bad62ba2da605d36
